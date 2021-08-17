@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn djblog.wsgi --log-file -
+web: gunicorn bookr.wsgi --log-file -
